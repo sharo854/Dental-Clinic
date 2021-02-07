@@ -1,0 +1,242 @@
+
+.clear {
+    clear: both;
+}
+* {
+    /* word-break: break-all; */
+    box-sizing: border-box;
+    word-break: break-all;
+}
+li {
+    list-style: none;
+}
+
+
+
+body {
+    /* color: #515151; */
+    padding:0 auto;
+    margin:0 auto;
+    border-top:solid 8px #6CC6C4;
+    background-color: #F6F6F6;
+    
+    /* max-width:1170px;
+    text-align: center; */
+}
+.limit {
+    max-width:1170px;
+    padding:0 10px;
+    margin:0 auto;
+}
+
+.siteTitle {
+    padding-top:50px;
+    float:left;
+}
+
+.header-right {
+    float:right;
+    text-align: right;
+    padding-top: 8px;
+}
+
+.hot {
+    color: red;
+}
+
+
+.description {
+    margin-bottom:8px;
+    font-size:11px;
+}
+.tel {
+    font-size:21px;
+    line-height:46px;
+    letter-spacing: 3px;
+}
+.icon {
+    padding-right: 11px;
+}
+
+.time {
+    padding:6px 20px;
+    border:1px solid #555;
+    margin-bottom:18px;
+    font-size:11px;
+}
+.navi {
+    background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+    border-radius: 6px;
+
+    border-top:1px solid rgb(108,198,196);
+    border-bottom:1px solid rgb(108,198,196);
+}
+.navi li {
+    float:left;
+    text-align:center;
+    width:20%;
+    border-left:1px solid rgb(156,227,225);
+    border-right:1px solid rgb(108,198,196);
+}
+.naviFirst {
+    border-radius: 5px 0 0 5px;
+    /* border-left: none; */
+}
+.naviLast {
+    border-radius: 0 5px 5px 0;
+    /* border-left: none; */
+}
+.navi li:hover {
+    background-image: linear-gradient(rgb(108,198,196) 0%, rgb(156,227,225) 100%);
+
+    border-right:1px solid rgb(156,227,225);
+    border-left:1px solid rgb(108,198,196);
+}
+.navi li a {
+    text-decoration: none;
+    color:white;
+    text-shadow: 1px 1px 2px #6cc6c4;
+    padding:16px 0px 19px 0px;
+    display:block;
+}
+.titleJa {
+    font-size:14px;
+    font-weight: bold;
+}
+.titleEn {
+    font-size:9px;
+    font-weight: bold;
+}
+
+.main {
+    margin-top:20px;
+}
+
+.trees {
+    width:261px;
+    float:left;
+}
+
+.tree {
+    /* margin-bottom: 200px; */
+    border:1px solid rgb(108,198,196);
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 20px;
+}
+.treeTitle {
+    color:white;
+    text-shadow: 1px 1px 2px #6cc6c4;
+    font-weight: bold;
+    padding-left:12px;
+    line-height:42px;
+    background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+}
+.tree li {
+    position:relative;
+    line-height:42px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom:1px solid rgb(108,198,196);
+    font-size: 14px;
+}
+.tree li i{
+    position:absolute;
+    top:15px;
+    left:5px;
+}
+.tree li a{
+    text-decoration: none;
+    padding-left:5px;
+    margin-left:25px;
+    display:block;
+    color:black;
+
+    padding-right:auto;
+}
+.tree li a:hover{
+    color: rgb(108,198,196);
+}
+.treeLast {
+    margin-bottom: 20px;
+}
+
+.contents {
+    margin-left:297px;
+    margin-right:auto;
+    /* width:400px; */
+}
+.contents img {
+    width:100%;
+    margin-bottom:8px;
+}
+
+.news {
+    padding:20px;
+    background-color: white;
+    margin-bottom:22px;
+}
+.newsTitle {
+    line-height: 50px;
+    border-bottom:4px solid rgb(108,198,196);
+    margin-bottom:15px;
+}
+.newsItem {
+    padding:10px 0;
+    margin:0 10px;
+    border-bottom:1px dotted black;
+}
+.date {
+    float:left;
+}
+.newsContents {
+    margin-left:146px;
+}
+.newsItemLast {
+    margin-bottom:15px;
+}
+
+
+.footNavi {
+    background-color: #6CC6C4;
+    color:white;
+    line-height: 30px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left:15px;
+}
+.footNavi li {
+    position: relative;
+    float:left;
+    padding:0 20px 0 25px;
+}
+.footNavi li a{
+    color:white;
+    font-size:12px;
+    text-decoration: none;
+}
+.footNavi li a:hover{
+    text-decoration: underline;
+
+
+}
+.footNavi li i{
+    position: absolute;
+    left:5px;
+    top:7px;
+}
+.address {
+    text-align: right;
+    line-height: 52px;
+}
+
+.footfoot {
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:16px;
+    border-top:3px solid rgb(108,198,196);
+}
+
+
+
+
+
